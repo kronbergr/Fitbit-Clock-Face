@@ -1,0 +1,68 @@
+.background {
+  viewport-fill: blue;
+  }
+
+#myLabel {
+  font-size: 80;
+  font-family: Seville-Book-Condensed;
+  letter-spacing:14;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: #F5F5DC;
+  
+}
+.sensor-label {
+  font-family: Seville-Book;
+  fill: #F5F5DC;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 16;
+}
+
+.sensor-data {
+  font-family: Seville-Book;
+  fill:#F5F5DC;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  font-weight: bold;
+}
+
+
+/*glowy clock*/
+
+.glow{
+  font-size: 80;
+  font-family: Seville-Book-Condensed;
+  letter-spacing:14;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: #F5F5DC;
+  opacity:.5;
+  
+}
+
+#glowClock1 {
+  x: 50%+3;
+  y: 50%+3;
+  fill: #FFD700;
+}
+
+#glowClock2 {
+  x: 50%+2;
+  y: 50%+2;
+  fill: #FC6B3A;
+}
+
+/*spatter*/
+
+#spatter{
+  transform:rorate(90);
+}
+
+
+

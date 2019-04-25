@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "07965d90-5b0b-490c-87ab-45784a987212",
+    "appType": "clockface",
+    "appDisplayName": "clockTest",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "clockTest"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

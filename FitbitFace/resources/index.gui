@@ -1,0 +1,80 @@
+<svg class="background" >
+  
+  <image href="darkerParchment.png" />
+  
+     <image id="batImg" href="" x="80%" y="5" height="20" width="50"/>
+  <text id="batPercent" class="sensor-data" x="90%" y="40"  font-family="Seville-Bold">{...}</text>
+   <image href="tallBulbs.png" x="-35" y="-40" width="124%"/>
+  <text id="glowClock1" class="glow"/>
+  <text id="glowClock2" class="glow" />
+  <text id="myLabel"  /> 
+  
+  
+
+   
+<!--   <g pointer-events="visible" transform="translate(14%,255)">
+    <animateTransform attributeType="rotate" from="0" to="360" begin="load;" dur="6" repeatCount="indefinite" />
+      <image href="gearLG.png" id="lgGear" x="$-10%" y="$-10%" height="20%" width="20%"/>
+    
+</g> -->
+  
+  
+  <g pointer-events="visible" transform="translate(10%,255)">
+    <animateTransform attributeType="rotate" from="0" to="360" begin="load;" dur="8.75" repeatCount="indefinite" />
+      <image href="gearLG.png" id="lgGear" x="$-10%" y="$-10%" height="20%" width="20%"/>
+    
+</g>
+   <g pointer-events="visible" transform="translate(23%,231)">
+    <animateTransform attributeType="rotate" from="360" to="0" begin="load;" dur="7" repeatCount="indefinite" />
+      <image href="othergear.png" id="smGear" x="$-10%" y="$-10%" height="20%" width="20%"/>
+    
+  </g> 
+  
+  
+  
+  
+  <text id="steps-label" class="sensor-label" x="33%" y="260">Steps</text>
+  <text id="steps-data" class="sensor-data" x="33%" y="280"  font-family="Seville-Bold">{...}</text>
+  
+  
+   <image href="stairs.png" x="76%" y="255" height="8%" width="8%"/>
+  <text id="floors-label" class="sensor-label" x="70%" y="260">Floors</text>  
+  <text id="floors-data" class="sensor-data" x="70%" y="280"  font-family="Seville-Bold">{ ... }</text>
+   
+  
+  
+
+
+  
+<!--     <g transform="translate(1%,5)" pointer-events="visible">
+    <animateTransform attributeType="translate"
+      from="1%,5" to="5%,5" begin="load+1.5" dur="1" repeatCount="indefinite" />
+    <animateTransform attributeType="translate"
+      to="1%,5" from="5%,1" begin="load+1.6" dur=".75" repeatCount="indefinite" />
+  <image href="spatter.png" id="spatter" x="1%" y="5" height="10" width="50"/>
+  </g> -->
+  
+   <g pointer-events="visible">
+    <animateTransform attributeType="scale" from=".75" to=".9"  begin="load;enable"  dur=".75" repeatCount="indefinite"/> 
+  <image href="hearticonXS.png" id="heartbeat" x="1%" y="5" height="40" width="30"/>
+  </g>
+  
+
+  <text id="hrm-data" class="sensor-data" x="17%" y="40"  font-family="Seville-Bold">{ ... }</text>
+  
+  
+ <image href="plaque.png" x="22%" y="172" height="8%" width="55%"/>
+  <text id="date-data" class="sensor-data" fill="black" x="50%" y="190">{ ... }</text>
+
+  
+    <image href="plaque.png" x="28%" y="12" height="15%" width="45%"/>
+  <text id="calories-label" class="sensor-label" fill="black" x="50%" y="30">Calories</text>  
+  <text id="calories-data" class="sensor-data" fill="black" x="50%" y="50">{ ... }</text>
+
+  <text id="am-pm"  x="92%" y="50%"class="sensor-label" font-family="Seville-Bold" font-size="20"></text>
+  
+  
+  
+  
+  
+</svg>
